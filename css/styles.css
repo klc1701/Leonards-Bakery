@@ -1,0 +1,723 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Montserrat:400,700);
+
+body{
+	width: 1920px;
+	height: 1080px;
+}
+
+header{
+	background-color: #f2f2f2;
+	margin-bottom: -10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: -10px;
+	margin-bottom: 0px;
+}
+
+.header{
+	margin: auto;
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 50px;
+	margin-bottom: 80px;
+	letter-spacing: 5px;
+}
+
+#header{
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 20px;
+}
+
+li{
+	display: inline-block;
+}
+
+li a{
+	text-decoration: none;
+	padding: 16px;
+	font-family: Montserrat;
+	font-weight: 700;
+	color: black;	
+}
+
+li a:hover{
+	color: pink;
+	border-bottom: 5px solid pink;
+}
+
+.line{
+	display: block;
+	border-top: 1px solid gray;
+	width: 500px;
+	margin: auto;
+}
+
+
+
+
+.home{
+	font-family: Playfair Display;
+	font-weight: 700;
+	background-size: cover;
+	background-image: url(../images/home/bakery.jpg);
+	min-height: 500px;
+	width: 101%;
+	margin-left: -10px;
+	color: white;
+}
+
+
+.left{
+	font-size: 100px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 350px;
+	padding-top: 200px;
+}
+
+h1 a{
+	text-decoration: none;
+	color: white;
+	opacity: 0.8;
+}
+
+h1 a:hover{
+	opacity: 1;
+}
+
+
+#malasada{
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 20px;
+	padding-left: 350px;
+}
+
+#homeline{
+	display: block;
+	border-top: 2px solid white;
+	width: 10%;
+	margin-left: 100px;
+	margin-top: -150px;
+	padding-top: 0px;
+}
+
+.about{
+	font-family: Playfair Display;
+	font-weight: 700;
+	background-image: url(../images/home/macaroon.jpg);
+	background-size: cover;
+	min-height: 500px;
+	width: 101%;
+	margin-left: -10px;
+	color: white;
+}
+
+.right{
+	font-size: 100px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 1250px;
+	padding-top: 200px;
+}
+
+
+#history{
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 20px;
+	padding-left: 1250px;
+	width: 600px;
+}
+
+#aboutline{
+	display: block;
+	border-top: 2px solid white;
+	width: 10%;
+	margin-left: 1000px;
+	margin-top: -150px;
+	padding-top: 0px;
+}
+
+.menu{
+	font-family: Playfair Display;
+	font-weight: 700;
+	background-image: url(../images/home/baking.jpg);
+	background-size: cover;
+	min-height: 500px;
+	width: 101%;
+	margin-left: -10px;
+	color: white;
+}
+
+.left{
+	font-size: 100px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 350px;
+	padding-top: 200px;
+}
+
+
+#order{
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 20px;
+	padding-left: 350px;
+}
+
+#orderline{
+	display: block;
+	border-top: 2px solid white;
+	width: 10%;
+	margin-left: 100px;
+	margin-top: -150px;
+	padding-top: 0px;
+}
+
+.visit{
+	font-family: Playfair Display;
+	font-weight: 700;
+	background-image: url(../images/home/filling.jpg);
+	background-size: cover;
+	min-height: 500px;
+	width: 101%;
+	margin-left: -10px;
+	margin-bottom: -10px;
+	color: white;
+}
+
+.right{
+	font-size: 100px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 1250px;
+	padding-top: 200px;
+}
+
+
+#visit{
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 20px;
+	padding-left: 1250px;
+	width: 600px;
+}
+
+#visitline{
+	display: block;
+	border-top: 2px solid white;
+	width: 10%;
+	margin-left: 1000px;
+	margin-top: -150px;
+	padding-top: 0px;
+}
+
+footer{
+	margin: -10px;
+}
+
+/*ABOUT*/
+
+.aboutpage{
+	display: block;
+	text-align: center;
+}
+
+#ourstory{
+	font-family: Montserrat;
+	font-weight: 400;
+	margin-top: 70px;
+}
+
+#story{
+	width: 900px;
+	text-align: center;
+	display: block;
+	margin: auto;
+	font-family: Playfair Display;
+	font-weight: 400;
+	color: #bfbfbf;
+	margin-bottom: 70px;
+}
+
+.timeline{
+	color: white;
+}
+
+.img1{
+	margin-left: -10px;
+	background-image: url(../images/about/malasadas.jpg);
+	width: 640px;
+	height: 300px;
+	display: inline-block;
+	margin-right: -4px;
+	vertical-align: top;
+}
+
+.img2{
+	background-image: url(../images/about/box.jpg);
+	width: 640px;
+	height: 300px;
+	display: inline-block;
+	margin-left: 0px;
+	margin-right: -4px;
+	vertical-align: top;
+}
+
+.img3{
+	background-image: url(../images/about/puffs.jpg);
+	width: 630px;
+	height: 300px;
+	display: inline-block;
+	margin-left: -6px;
+	margin-right: -10px;
+	vertical-align: top;
+}
+
+h3{
+	font-family: Playfair Display;
+	font-weight: 700;
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 175px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	width: 300px;
+}
+
+.abouttext{
+	text-align: center;
+	width: 300px;
+	font-family: Playfair Display;
+	font-weight: 400;
+	margin-left: 175px;
+}
+
+.aboutline{
+	display: block;
+	border-top: 1px solid white;
+	width: 50px;
+	margin: auto;
+}
+
+
+/*MENU*/
+
+#coating{
+	width: 960px;
+	display: inline-block;
+	float: left;
+	margin: 50px;
+	width: 600px;
+}
+
+h4{
+	text-align: left;
+	font-family: Playfair Display;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+
+.coatline{
+	display: block;
+	border-top: 1px solid gray;
+	width: 20px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.menutext{
+	margin-left: 20px;
+	margin-top: 0px;
+	margin-right: 0px;
+	width: 300px;
+	display: block;
+	display: inline-block;
+	vertical-align: top;
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+div.coatoptions{
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 100px;
+	vertical-align: top;
+}
+
+.coattext{
+	height: 150px;
+	padding-right: 30px;
+	width: 600px;
+	border-right: 1px solid #f2f2f2;
+}
+
+li.options{
+	float: left;
+}
+
+.coatlist{
+	padding: 0px;
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 300%;
+	margin-right: 0px;
+}
+
+
+
+/*SECOND DIV*/
+#filling{
+	width: 600px;
+	display: inline-block;
+	float: left;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+
+.fillline{
+	display: block;
+	border-top: 1px solid gray;
+	width: 20px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.menutext{
+	margin-left: 50px;
+	margin-top: 0px;
+	width: 300px;
+	display: block;
+	display: inline-block;
+	vertical-align: top;
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+div.filloptions{
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 100px;
+	vertical-align: top;
+}
+
+.filltext{
+	height: 150px;
+	padding-right: 30px;
+	width: 600px;
+	border-right: 1px solid #f2f2f2;
+}
+
+li.options{
+	float: left;
+}
+
+.filllist{
+	padding: 0px;
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 300%;
+	margin-right: 0px;
+}
+
+/*THIRD DIV*/
+
+#pineapple{
+	display: inline-block;
+	padding-left: 100px;
+	padding-top: 60px;
+}
+
+.flavor{
+	font-family: Playfair Display;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+.pinepic{
+	width: 225px;
+	margin-top: 20px;
+}
+
+.type{
+	margin-left:50px;
+	margin-bottom: 50px;
+}
+
+.call{
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	margin-top: 50px;
+	text-align: center;
+}
+
+p.ordering{
+	display: inline-block;
+	margin-top: 20px;
+	font-family: Montserrat;
+	font-size: 30px;
+}
+
+p#ordernow{
+	padding-right: 20px;
+	font-weight: 700;
+}
+
+p#today{
+	color: pink;
+	font-family: Playfair Display;
+	padding-right: 10px;
+}
+
+/*VISIT*/
+
+.locations{
+	display: block;
+	padding-top: 50px;
+	margin: auto;
+	width: 90%;
+}
+
+
+h2#locations{
+	font-family: Montserrat;
+	font-weight: 400;
+	font-size: 30px;
+	text-align: center;
+}
+
+div.locationsection{
+	padding-left: 50px;
+}
+
+/*hawaii location*/
+
+#hawaii{
+	width: 600px;
+	display: inline-block;
+	float: left;
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+p.phone{
+	font-family: Playfair Display;
+	font-weight: 700;
+	font-size: 15px;
+	padding: 0px;
+}
+
+.locationline{
+	display: block;
+	border-top: 1px solid gray;
+	width: 20px;
+	margin: 20px;
+	margin: auto;
+}
+
+.hawaiitext{
+	margin-top: 20px;
+	width: 300px;
+	display: block;
+	display: inline-block;
+	vertical-align: top;
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 150%;
+}
+
+h4.locationhead{
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-size: 20px;
+}
+
+/*mobile location*/
+
+#mobile{
+	width: 600px;
+	display: inline-block;
+	float: left;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.locationline{
+	display: block;
+	border-top: 1px solid gray;
+	width: 20px;
+	margin: 20px;
+	margin: auto;
+}
+
+.mobiletext{
+	margin-top: 20px;
+	width: 300px;
+	display: block;
+	display: inline-block;
+	vertical-align: top;
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 150%;
+}
+
+h4.locationhead{
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+/*japan location*/
+
+#japan{
+	width: 600px;
+	display: inline-block;
+	float: left;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.locationline{
+	display: block;
+	border-top: 1px solid gray;
+	width: 20px;
+	margin: 20px;
+	margin: auto;
+}
+
+.japantext{
+	margin-top: 20px;
+	width: 300px;
+	display: block;
+	display: inline-block;
+	vertical-align: top;
+	font-family: Playfair Display;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 150%;
+}
+
+h4.locationhead{
+	text-align: center;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+script{
+	margin-bottom: 70px;
+}
+
+h4.delivery{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.deliveryline{
+	display: block;
+	border-top: 1px solid gray;
+	width: 20px;
+	margin: 20px;
+	margin: auto;
+}
+
+form{
+	display: block;
+	margin-bottom: 70px;
+}
+
+input[type=text]{
+	font-family: Montserrat;
+	font-size: 12px;
+	color: #d9d9d9;
+}
+
+input.input{
+	padding-left: 5px;
+	padding-right: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	margin-top: 50px;
+	border-bottom: 2px solid #d9d9d9;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+input.comment{
+	padding-left: 5px;
+	padding-right: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	margin-left: 10px;
+	border-bottom: 2px solid #d9d9d9;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+#submit1{
+	margin-left: 500px;
+	margin-right: 50px;
+}
+
+#submit2{
+	margin-right: 50px;
+}
+
+#submit4{
+	margin-left: 500px;
+	padding-right: 710px;
+}
+
+button{
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	border: none;
+	background-color: white;
+}
+
+button[type=submit]{
+	font-family: Montserrat;
+	font-size: 15px;
+	color: #d9d9d9;
+}
+
+button[type=submit]:hover{
+	color: black;
+}
+

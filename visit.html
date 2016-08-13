@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Visit Us | Leonard's Bakery</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<p id="header">LEONARD'S BAKERY</p>
+		</div>
+
+		<div class="line"></div>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="menu.html">MENU</a></li>
+				<li><a href="visit.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="locations">
+		<h2 id="locations">OUR LOCATIONS</h2>
+	</div>
+
+	<div class="locationsection">
+		<div id="hawaii">
+			<h4 class="locationhead">LEONARD'S HAWAII</h4>
+
+			<p class="phone">808 737 5591</p>
+
+			<div class="locationline"></div>
+
+			<div class="hawaiitext">
+				ADDRESS:<br>
+				933 Kapahulu Avenue<br>
+				Honolulu, HI 96816<br><br>
+				HOURS:<br>
+				Sun &mdash; Thurs 5:30 a.m. &mdash; 10 p.m.<br>
+				Fri &amp; Sat 5:30 a.m. &mdash; 11 p.m. 
+			</div>
+		</div>
+
+		<div id="mobile">
+			<h4 class="locationhead">MALASADAMOBILE&trade;</h4>
+
+			<p class="phone">808 341 2428</p>
+
+			<div class="locationline"></div>
+
+			<div class="mobiletext">
+				ADDRESS:<br>
+				Waikele Shopping Center<br>
+				94 Lumiaina Street<br>
+				Waipahu, HI 96797<br><br>
+				HOURS: <br>
+				Sun-Thurs 6 a.m. &mdash; 9 p.m. <br>
+				Fri &amp; Sat6 a.m. &mdash; 10 p.m. <br>
+			</div>
+		</div>
+
+		<div id="japan">
+			<h4 class="locationhead">LEONARD'S JAPAN&trade;</h4>
+
+			<p class="phone">045 222 2000</p>
+
+			<div class="locationline"></div>
+
+			<div class="japantext">
+				ADDRESS:<br>
+				World Porters<br>
+				11 Shinkocho<br>
+				Yokohama, Japan 231-0001
+			</div>
+		</div>
+	</div>
+
+	<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:375px;width:1900px;'><div id='gmap_canvas' style='height:375px;width:1900px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://werkenbij.rebelinternet.nl/hr-manager/">HR Manager</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(21.2848981,-157.81328740000004),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(21.2848981,-157.81328740000004)});infowindow = new google.maps.InfoWindow({content:'<strong>Leonard\'s Hawaii</strong><br>933 Kapahulu Avenue Honolulu, HI 96816<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+	<div>
+		<h4 class="delivery">RESERVE MALASADAMOBILE&trade;</h4>
+
+		<div class="deliveryline"></div>
+
+		<form>
+		  	<input class="input" id="submit1" type="text" name="name" value="Name"> 
+			<input class="input" id="submit2" type="text" name="email" value="Email">
+			<input class="input" id="submit3" type="text" name="phone" value="Phone Number"><br><br>
+			<input class="comment" id="submit4" type="text" name="comment" value="Comment"><br>
+		  	<button type="submit">RESERVE</button>
+		</form>
+
+
+	</div>
+
+</body>
+</html>
